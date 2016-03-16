@@ -13,7 +13,6 @@ function titleCase (phrase) {
     
     if (phrase) {
         var words = phrase.split(' ');
-        var titleCasedWords = [];
         var lastWordIndex = words.length - 1;
     
         words.forEach(function (word, i) {
