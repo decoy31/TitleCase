@@ -16,9 +16,7 @@ function titleCase (phrase) {
         var lastWordIndex = words.length - 1;
     
         words.forEach(function (word, i) {
-            if (i === 0 || i === lastWordIndex) {
-                word = titleCaseWord(word);
-            } else if (lowerCaseWords.indexOf(word) === -1) {
+            if (i === 0 || i === lastWordIndex || lowerCaseWords.indexOf(word) === -1) {
                 word = titleCaseWord(word);
             }
             
