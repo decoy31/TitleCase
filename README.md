@@ -9,3 +9,5 @@ Many writers are often confused by the different methods of capitalizing titles.
     - Would return "I Love Solving Problems and It Is Fun"
   - Example 2: "wHy DoeS A biRd Fly?"
     - Would return "Why Does a Bird Fly?"
+
+Prompt Source: https://app.pluralsight.com/library/courses/developer-job-interviews
